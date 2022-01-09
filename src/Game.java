@@ -13,7 +13,7 @@ public class Game {
 
         Deck D = new Deck(ranks, suits, values);
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //print
             while (Deck.runny == true) {
 
                 D.checkWin(Deck.runny); // ok
